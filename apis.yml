@@ -1,22 +1,52 @@
 aid: vermeer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vermeer.png
 name: Vermeer
-description: 'Vermeer is a company surfaced as a portfolio company of matrix-partners, techstars and added
-  to the API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Vermeer is an American-Ukrainian defense-technology startup (founded 2018 by Brian Streem;
+  headquartered in New York with forward operations in Kyiv) building vision-based autonomy for unmanned
+  aerial platforms. Its Visual Positioning System (VPS) uses electro-optical and infrared cameras plus
+  onboard AI (NVIDIA) to match imagery to 2D/3D maps and deliver precise navigation in GPS-denied,
+  jammed, or spoofed environments. Products include Air (absolute positioning without GPS), Celestial
+  (star-based navigation), and Terminal Guidance (precision targeting). The technology has been fielded
+  by the Armed Forces of Ukraine and is aimed at defense customers including Lockheed Martin, General
+  Atomics, Northrop Grumman, and the U.S. Air Force and Army. Vermeer exposes no public API, SDK, or
+  developer platform at this time; this profile is a company/marketing surface with no API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/vermeer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - matrix-partners
 - techstars
+- draper-associates
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+x-industry:
+- defense
+- aerospace
+- computer-vision
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - B2B
+- Defense
+- Aerospace
+- Drones
+- Navigation
+- Computer Vision
+- Autonomy
+- GPS-Denied
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +56,24 @@ maintainers:
 common:
 - type: Website
   url: https://getvermeer.com/
+- type: Blog
+  url: https://getvermeer.com/news
+  name: News
+- type: Support
+  url: https://getvermeer.com/contact
+  name: Contact
+- type: TermsOfService
+  url: https://getvermeer.com/terms
+- type: Legal
+  url: https://getvermeer.com/legal
+- type: Team
+  url: https://getvermeer.com/team
+- type: Careers
+  url: https://vermeer.homerun.co
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vermeerapp/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
