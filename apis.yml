@@ -55,7 +55,7 @@ tags:
 - Aerospace
 - Drones
 - Navigation
-- Computer-Vision
+- Computer Vision
 - Autonomy
 - GPS-Denied
 tags_raw:
@@ -68,6 +68,7 @@ tags_raw:
 - Computer Vision
 - Autonomy
 - GPS-Denied
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
